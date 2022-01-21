@@ -1,0 +1,189 @@
+<html>
+
+<head>
+
+<title>Marriages and More - Appointments and Fees</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<style type="text/css">
+
+<!--
+
+.back {  background-attachment: scroll; background-image: url(images/marble1.jpg); background-repeat: repeat-y; background-position: 0px 0px}
+
+-->
+
+	.details
+
+	{
+
+		font-family		: "lucida sans unicode", verdana, "century gothic", arial;
+
+		font-size		: 12;
+
+		color			: #333366;
+
+		background-color	: #C3C7CA;
+
+		vertical-align		: top;
+
+; font-weight: bold	}
+
+</STYLE>
+
+	<SCRIPT LANGUAGE="JavaScript">
+
+	<!--
+
+	    var dayName=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday",
+
+					"Friday","Saturday")
+
+	    var monthName=new Array("January","February","March","April","May","June","July",
+
+					"August","September","October","November","December")
+
+	    var monthDays=new Array(31,28,31,30,31,30,31,31,30,31,30,31)
+
+	    var now=new Date
+
+	    var nowd=now.getDate()
+
+	    var nowm=now.getMonth()
+
+	    var nowy=now.getYear()
+
+	    function showCalendar(day,month,year)
+
+	    {
+
+		if ((year%4==0||year%100==0)&&(year%400==0)) monthDays[1]=29; else monthDays[1]=28 //leap year test
+
+		var firstDay=new Date(year,month,1).getDay()
+
+		var calStr="<TABLE class=details BORDER=0 WIDTH=175 COLS=7 cellpadding=0 cellspacing=0>"
+
+		calStr+="<TR bgcolor=#818385>"
+
+		calStr+="<TD ALIGN=center><IMG SRC='images/leftarrow.gif' onClick='nowm--; if (nowm<0) { nowy--; nowm=11; } showCalendar(nowd,nowm,nowy)'>"
+
+		calStr+="<TD COLSPAN=5 ALIGN=center>"+monthName[month].toUpperCase()+" "+year
+
+		calStr+="<TD ALIGN=center><IMG SRC='images/rightarrow.gif' onClick='nowm++; if (nowm>11) { nowy++; nowm=0; } showCalendar(nowd,nowm,nowy)'>"
+
+		calStr+="<TR>"
+
+		for (var i=0;i<dayName.length;i++) calStr+="<TD ALIGN=center>"+dayName[i].substring(0,1)
+
+		var dayCount=1
+
+		calStr+="<TR>"
+
+		for (var i=0;i<firstDay;i++) calStr+="<TD>&nbsp;"
+
+		for (var i=0;i<monthDays[month];i++)
+
+		{
+
+			calStr+="<TD ALIGN=center>"+dayCount++
+
+			if ((i+firstDay+1)%7==0&&(dayCount<monthDays[month]+1)) calStr+="<TR>"
+
+		}
+
+		var totCells=firstDay+monthDays[month]
+
+		for (var i=0;i<(totCells>28?(totCells>35?42:35):28)-totCells;i++) calStr+="<TD>&nbsp;"
+
+		calStr+="</TABLE><BR>"
+
+		calendar.innerHTML=calStr
+
+	    }
+
+	//-->
+
+	</SCRIPT>
+
+
+
+</head>
+
+
+
+<body bgcolor="#C3C7CA" text="#000000" leftMargin="0" rightMargin="0" topMargin="0" marginheight="0" marginwidth="0" link="#235E98" class="back" onLoad="showCalendar(nowd,nowm,nowy)">
+<table width="730" border="0" cellspacing="0" cellpadding="0"> <tr> <td colspan="2"> 
+<img src="images/top1.gif" width="272" height="51"><img src="images/title5.gif" width="415" height="51"><img src="images/end.gif" width="77" height="51"></td></tr> 
+<tr> <td width="18%" valign="top"> <img src="images/top2.gif" width="175" height="21"><br> 
+<img src="images/menu1.gif" width="175" height="24" border="0"><br> <a href="index.htm"><img src="images/menu2.gif" width="175" height="27" border="0"></a><br> 
+<a href="congrats.htm"><img src="images/menu3.gif" width="175" height="28" border="0"></a><br> 
+<a href="anniversaries.htm"><img src="images/menu4.gif" width="175" height="28" border="0"></a><br> 
+<a href="license.htm"><img src="images/menu5.gif" width="175" height="27" border="0"></a><br> 
+<a href="fees.htm"><img src="images/menu6.gif" width="175" height="28" border="0"></a><br> 
+<a href="spiritual.htm"><img src="images/menu7.gif" width="175" height="28" border="0"></a><br>
+      <a href="civil.htm"><img src="images/menu8.gif" width="175" height="30" border="0"> 
+      </a><br> 
+<br> <br><FONT FACE="Georgia, Times New Roman, Times, serif" SIZE="2"></FONT> 
+<BR><BR> <BR> </td><td valign="top"> <img src="images/top3.gif" width="16" height="21"><br> 
+<center>
+        <SPAN ID=calendar STYLE="position:relative;"></SPAN> <i><b><font size="4">No 
+        appointments are necessary..... <br>
+        <br>
+        Hours: 24 hours / Seven days<br>
+        <br>
+        Spiritual and Civil ceremonies<br>
+        <br>
+        <img src="images/counsel.gif" width="269" height="30"><br>
+        <br>
+        Deposits may be required (Holidays &amp; Special events).<br>
+        <br>
+        Payments are due at time of services.<br>
+        <br>
+        Fees will vary depending on various situations.<br>
+        <br>
+        Please call us for rates:<br>
+        <br>
+        (864) 751-0017 (Greenville)<br>
+        <br>
+        (843) 763-3296 (Charleston)</font></b></i><BR> 
+<BR><FONT FACE="Georgia, Times New Roman, Times, serif"><B><A HREF="/agreement.htm"><FONT SIZE="4" COLOR="#FF0000">Click 
+Here for Agreement</FONT></A></B></FONT><br> <br> <img src="images/bar.gif" width="620" height="15"> 
+</center><CENTER><img src="images/require.jpg" width="179" height="50" vspace="10"></CENTER><br> 
+<FONT FACE="Comic Sans MS">Both Parties must appear in person to file an application 
+for a marriage license. There is a fee for filing the application. This fee must 
+be paid before the application can be filed. Fees may vary depending on counties. 
+</FONT><p><FONT FACE="Comic Sans MS">All applicants must have identification and 
+Social Security card or may use another Legal document (Voter Registration Card, 
+Paycheck Stub, Tax Record) containing their Social Security Number.</FONT></p><p><FONT FACE="Comic Sans MS">Applicants 
+who cannot work in the U.S. must get a Statement from the Social Security Administration 
+stating that they cannot obtain a Social Security Card.</FONT></p><p><FONT FACE="Comic Sans MS">Applicants 
+under the age of Eighteen <b>(18)</b> should call your local Marriage License 
+Office for Requirements.</FONT></p><p><FONT FACE="Comic Sans MS">There is a waiting 
+period in most states from the time you apply for the license until the time the 
+license can be issued.</FONT><FONT FACE="Georgia, Times New Roman, Times, serif"><br> 
+</FONT></p><p align="center"><font size="4"><i><b><font color="#000000">We Accept:</font><font color="#FFFFFF"><br> 
+</font></b></i></font><img src="mcvisa.jpg" width="78" height="86"><BR></p><p align="center"><img src="images/bar.gif" width="620" height="15" hspace="10"></p><div align="CENTER"> 
+</div><center>
+        <p><font face="Georgia, Times New Roman, Times, serif" size="2"><b><i><font size="4" color="#990000"><img src="help%20links.jpg" width="204" height="31"></font></i></b><br>
+          <b><font size="1">(Just click the link below to visit these great sites)</font></b><br>
+          <br>
+          <br>
+          <b><font size="1"><font size="5">CREEKSIDE PLANTATION<br>
+          </font><a href="http://www.creekside.to/"><img src="/cside.gif" width="538" height="421" border="0"></a></font></b><br>
+          <br>
+          <br>
+          <br>
+          <a href="http://www.weddingservicesunlimited.com"><img src="wedunlimited.jpg" width="321" height="40" border="0"></a><br>
+          <i><b>(Click Above to visit website)</b></i></font></p>
+      </center><p><img src="images/bar.gif" width="620" height="15" hspace="10"><br> 
+</p><p>&nbsp; </p><center> <font face="Arial, Helvetica, sans-serif" size="2"><a href="index.htm">Home</a> 
+| <a href="congrats.htm">Congratulations</a> | <a href="anniversaries.htm">Anniversaries</a> 
+| <a href="license.htm">Marriage License</a> | <a href="fees.htm">Appointments 
+and Fees</a><br> <a href="spiritual.htm">Spiritual Ceremonies</a> | <a href="civil.htm">Civil 
+Ceremonies</a> | <a href="mailto:scmarriage@aol.com">Email</a></font><br> <br> 
+<CENTER> </CENTER><br> <br> <br> </center></td></tr> </table>
+</body>
+
+</html>
+
